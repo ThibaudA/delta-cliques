@@ -1,0 +1,107 @@
+Getting clique 1,2 4,4 4,4 0
+Adding 1,2 4,9 4,4 0 (time delta extension)
+Adding 1,2 3,4 4,4 0(left time extension)
+Getting clique 1,2 3,4 4,4 0
+Adding 1,2 3,9 4,4 0 (time delta extension)
+Adding 1,2 1,4 1,4 3(left time extension)
+Getting clique 1,2 1,4 1,4 3
+Adding 1,2 1,9 1,4 3 (time delta extension)
+Adding 1,2 -4,4 1,4 3 (left time delta extension)
+Getting clique 1,2 -4,4 1,4 3
+Adding 1,2 -4,9 1,4 3 (time delta extension)
+Getting clique 1,2 -4,9 1,4 3
+Getting clique 1,2 1,9 1,4 3
+Adding 1,2 -4,9 1,4 3 (left time delta extension)
+Getting clique 1,2 3,9 4,4 0
+Adding 1,2 1,9 1,4 3(left time extension)
+Getting clique 1,2 4,9 4,4 0
+Adding 1,2 3,9 4,4 0(left time extension)
+Getting clique 1,3 3,3 3,3 0
+Adding 1,3 3,4 3,3 0 (time extension)
+Adding 1,3 1,3 3,3 0(left time extension)
+Getting clique 1,3 1,3 3,3 0
+Adding 1,3 1,4 3,3 0 (time extension)
+Adding 1,3 -2,3 3,3 0 (left time delta extension)
+Adding 1,2,3 1,3 1,3 2 (node extension)
+Getting clique 1,2,3 1,3 1,3 2
+Adding 1,2,3 1,4 1,4 3 (time extension)
+Adding 1,2,3 -2,3 1,3 2 (left time delta extension)
+Getting clique 1,2,3 -2,3 1,3 2
+Adding 1,2,3 -2,4 1,4 3 (time extension)
+Getting clique 1,2,3 -2,4 1,4 3
+Adding 1,2,3 -2,7 1,4 3 (time delta extension)
+Getting clique 1,2,3 -2,7 1,4 3
+Getting clique 1,2,3 1,4 1,4 3
+Adding 1,2,3 1,7 1,4 3 (time delta extension)
+Adding 1,2,3 -2,4 1,4 3 (left time delta extension)
+Getting clique 1,2,3 1,7 1,4 3
+Adding 1,2,3 -2,7 1,4 3 (left time delta extension)
+Getting clique 1,3 -2,3 3,3 0
+Adding 1,3 -2,4 3,3 0 (time extension)
+Getting clique 1,3 -2,4 3,3 0
+Adding 1,3 -2,8 3,3 0 (time delta extension)
+Getting clique 1,3 -2,8 3,3 0
+Getting clique 1,3 1,4 3,3 0
+Adding 1,3 1,8 3,3 0 (time delta extension)
+Adding 1,3 -2,4 3,3 0 (left time delta extension)
+Adding 1,2,3 1,4 1,4 3 (node extension)
+Getting clique 1,3 1,8 3,3 0
+Adding 1,3 -2,8 3,3 0 (left time delta extension)
+Getting clique 1,3 3,4 3,3 0
+Adding 1,3 3,8 3,3 0 (time delta extension)
+Adding 1,3 1,4 3,3 0(left time extension)
+Getting clique 1,3 3,8 3,3 0
+Adding 1,3 1,8 3,3 0(left time extension)
+Getting clique 2,3 2,2 2,2 0
+Adding 2,3 2,3 2,2 0 (time extension)
+Adding 2,3 1,2 2,2 0(left time extension)
+Getting clique 2,3 1,2 2,2 0
+Adding 2,3 1,3 2,2 0 (time extension)
+Adding 2,3 -3,2 2,2 0 (left time delta extension)
+Getting clique 2,3 -3,2 2,2 0
+Adding 2,3 -3,3 2,2 0 (time extension)
+Getting clique 2,3 -3,3 2,2 0
+Adding 2,3 -3,4 2,2 0 (time extension)
+Getting clique 2,3 -3,4 2,2 0
+Adding 2,3 -3,7 2,2 0 (time delta extension)
+Getting clique 2,3 -3,7 2,2 0
+Getting clique 2,3 1,3 2,2 0
+Adding 2,3 1,4 2,2 0 (time extension)
+Adding 2,3 -3,3 2,2 0 (left time delta extension)
+Adding 1,2,3 1,3 1,3 2 (node extension)
+Getting clique 2,3 1,4 2,2 0
+Adding 2,3 1,7 2,2 0 (time delta extension)
+Adding 2,3 -3,4 2,2 0 (left time delta extension)
+Adding 1,2,3 1,4 1,4 3 (node extension)
+Getting clique 2,3 1,7 2,2 0
+Adding 2,3 -3,7 2,2 0 (left time delta extension)
+Getting clique 2,3 2,3 2,2 0
+Adding 2,3 2,4 2,2 0 (time extension)
+Adding 2,3 1,3 2,2 0(left time extension)
+Getting clique 2,3 2,4 2,2 0
+Adding 2,3 2,7 2,2 0 (time delta extension)
+Adding 2,3 1,4 2,2 0(left time extension)
+Adding 1,2,3 2,4 2,4 2 (node extension)
+Getting clique 1,2,3 2,4 2,4 2
+Adding 1,2,3 2,7 2,4 2 (time delta extension)
+Adding 1,2,3 1,4 1,4 3(left time extension)
+Getting clique 1,2,3 2,7 2,4 2
+Adding 1,2,3 1,7 1,4 3(left time extension)
+Getting clique 2,3 2,7 2,2 0
+Adding 2,3 1,7 2,2 0(left time extension)
+Getting clique 1,2 1,1 1,1 0
+Adding 1,2 1,2 1,1 0 (time extension)
+Adding 1,2 -4,1 1,1 0 (left time delta extension)
+Getting clique 1,2 -4,1 1,1 0
+Adding 1,2 -4,2 1,1 0 (time extension)
+Getting clique 1,2 -4,2 1,1 0
+Adding 1,2 -4,3 1,1 0 (time extension)
+Getting clique 1,2 -4,3 1,1 0
+Adding 1,2 -4,4 1,4 3 (time extension)
+Getting clique 1,2 1,2 1,1 0
+Adding 1,2 1,3 1,1 0 (time extension)
+Adding 1,2 -4,2 1,1 0 (left time delta extension)
+Getting clique 1,2 1,3 1,1 0
+Adding 1,2 1,4 1,4 3 (time extension)
+Adding 1,2 -4,3 1,1 0 (left time delta extension)
+Adding 1,2,3 1,3 1,3 2 (node extension)

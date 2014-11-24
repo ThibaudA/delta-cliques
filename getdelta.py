@@ -1,5 +1,6 @@
-rom CliqueMaster import CliqueMaster
+from CliqueMaster import CliqueMaster
 from Clique import Clique
+from CliqueCritique import CliqueCritique
 import sys
 
 Cm = CliqueMaster()
@@ -17,8 +18,9 @@ for line in sys.stdin:
 	link = frozenset([u,v])
 	time = (t,t)
 	
-	Cm.addClique(Clique((link, time)))
-	
+      #if t==2:
+#	Cm.addClique(Clique((link, time, time)))
+#	Cm.addCliqueCritique(CliqueCritique((link,(t,t),0)))
 	# Populate data structures
 	if not times.has_key(link):
 		times[link] = []
@@ -31,11 +33,22 @@ for line in sys.stdin:
 		nodes[v] = set()
 
 	nodes[u].add(v)
-	nodes[v].add(u)
+        nodes[v].add(u)
 	nb_lines = nb_lines + 1
+
+cliquescritiques=[]
+filenode=open(sys.argv[2], 'r')
+for line in filenode:
+	content=line.split(" ")
+	cliquescritiques.append(CliqueCritique((frozenset(map(int,list(content[0].split(',')))),map(int,tuple(content[1].split(','))),int(content[2]))))
+
+
+print map(str,sorted(cliquescritiques,Key=CliqueCritique._deltacritique))
+
+
+
 Cm._times = times
 Cm._nodes = nodes
 sys.stderr.write("Processed " + str(nb_lines) + "from stdin\n")
-R = Cm.getDeltaCliques(delta)
-sys.stdout.write("# delta = %d\n" % (delta))
-Cm.printCliques()	
+R = Cm.ExtendCliqueCritique(delta)
+#Cm.printCliques()	
